@@ -57,6 +57,11 @@ p{
 	background-color: rgba(128, 128, 128, 0.7);
 	padding: 10px 10px 10px 10px;
 }
+.columnList {
+	text-align: left;
+	width: 100%;
+	padding: 10px 25% 10px 25%;
+}
 .column50 {
 	width: 50%;
 	background-color: rgba(128, 128, 128, 0.7);
@@ -77,7 +82,7 @@ p{
 	float: right;
 }
 li{
-	font-size: 20px;
+	font-size: 1.5vw;
 }
 #exit {
 	width: 100%;
