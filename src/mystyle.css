@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+body{
+	background-color: Khaki ;
+	height: 100%;
+	background-image: url("./media/sky.jpg");
+	
+}
+h1, h2, h3, h4, h5, h6{
+	color: green;
+	text-align: center ;
+	font-family: "Verdana", sansserif ;
+	font-weight: bold ;
+}
+.head {	
+	padding: 20px;
+	text-align: left;
+	color: green;
+}
+h2{
+	color: white;
+}
+p{
+	font-family: "Georgia", serif ;
+	font-size: 20px;
+}	
+
+.navbar{
+	display: flex;
+	background-color: #6699ff;
+	position: sticky;
+	top: 0;
+}
+.navbar a{
+	color: white;
+	padding:14px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	background-color: Gray;
+}
+
+.row { 
+	display: flex;	
+	flex-wrap: wrap;
+	margin: 10px 0px 10px;
+}
+.column100 {
+	text-align: center;
+	width: 100%;
+	background-color: rgba(128, 128, 128, 0.7);
+	padding: 10px 10px 10px 10px;
+}
+.column50 {
+	width: 50%;
+	background-color: rgba(128, 128, 128, 0.7);
+	padding: 5px 5px 5px 5px;
+}
+.column33 {
+	width: 33%;
+	background-color: rgba(128, 128, 128, 0.7);
+	padding: 5px 5px 5px 5px;
+}
+
+.introduction{
+	font-size: 20px;
+	text-align: center;
+}
+.Bier1{
+	width: 50%;
+	float: right;
+	padding: 10px 0px 0px 10px;
+}
+li{
+	font-size: 20px;
+}
+#exit {
+	width: 100%;
+	padding: 10px opx 0px 10px;
+}
+
+iframe{
+	width: 80%;
+	height: 45vw;
+}
